@@ -11,7 +11,7 @@ This repository contains my solution for Udacity's second Deep Learning Nanodegr
 ### Main objectives
 
 The main objectives of the project are:
-1. Given a cascade classifier, be able to detect faces in images.
+1. Given a [Cascade Classifier](https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html), be able to detect faces in images.
 2. Use the VGG-16 model to dectect dogs in images, and give percentages of detected dogs in the downloaded datasets.
 ```
 Percentage of human files with detected dogs: 0 %
@@ -49,4 +49,21 @@ Test Accuracy: 64% (538/836)
 
 Notice that `dogImages/` and `lfw/` folders are __NOT__ included in the repository
 
+`Python` must be installed.
+The following packages must be installed:
 
+```
+opencv-python
+jupyter
+matplotlib
+pandas
+numpy
+pillow
+scipy
+tqdm
+seaborn
+scikit-learn
+scikit-image
+h5py
+ipykernel
+```
